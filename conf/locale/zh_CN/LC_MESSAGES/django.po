@@ -8477,7 +8477,7 @@ msgstr "Anant 谨上"
 
 #: lms/templates/financial-assistance/financial-assistance.html:52
 msgid "Back to Student FAQs"
-msgstr ""
+msgstr "返回学生常见问题"
 
 #: lms/templates/financial-assistance/financial-assistance.html:55
 msgid "Apply for Financial Assistance"

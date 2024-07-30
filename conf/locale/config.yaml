@@ -165,7 +165,7 @@ segment:
         mako-studio.po:
             - cms/*
         mako-indigo.po:
-            - themes/indigo/*
+            - themes/indigo/lms/templates/*
     underscore.po:
         underscore-studio.po:
             - cms/*
