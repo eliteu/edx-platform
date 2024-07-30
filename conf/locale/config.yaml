@@ -177,6 +177,7 @@ generate_merge:
         - django-studio.po
         - mako.po
         - mako-studio.po
+        - mako-indigo.po
         - wiki.po
         - edx_proctoring_proctortrack.po
     djangojs.po:
