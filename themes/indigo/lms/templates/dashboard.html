@@ -155,8 +155,8 @@ from common.djangoapps.student.models import CourseEnrollment
       <div class="main-container">
         <!-- NEW IN INDIGO Heading was added. -->
         <div class="course-heading-area">
-          <h2>Hello there!</h2>
-          <p>Let's learn something today</p>
+          <h2>${_("Hello there!")}</h2>
+          <p>${_("Let's learn something today")}</p>
         </div>
         <!-- NEW IN INDIGO NEW IN INDIGO add search area -->
         <div class="search-area">
@@ -165,11 +165,11 @@ from common.djangoapps.student.models import CourseEnrollment
               <form class="search-form">
                 <div class="search-field-wrapper">
                   <div class="button-holder">
-                    <button type="submit" class="search-button" title="${_('Search')}">
-                      Search
+                    <button type="submit" class="search-button" title='${_("Search")}'>
+                      ${_("Search")}
                     </button>
-                    <button type="button" class="cancel-button" title="${_('Clear search')}">
-                      Search
+                    <button type="button" class="cancel-button" title='${_("Clear search")}'>
+                      ${_("Search")}
                     </button>
                   </div>
                   <div class="input-holder">

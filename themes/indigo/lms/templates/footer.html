@@ -29,7 +29,7 @@
       ## which are not technically powered by OpenEdX.
       % if not hide_openedx_link:
       <ul class="logo-list">
-        <li>Powered by:</li>
+        <li>${_("Powered by:")}</li>
         <li>
           <a href="https://docs.tutor.edly.io" rel="noopener" target="_blank">
             <img src="${static.url('images/tutor-logo.png')}" alt="Runs on Tutor" width="57" />
@@ -43,7 +43,7 @@
       </ul>
     </div>
     
-    <nav class="nav-colophon" aria-label="${_('About')}">
+    <nav class="nav-colophon" aria-label='${_("About")}'>
       <ol>
           
           <li>
@@ -78,7 +78,7 @@
     </nav>
     
   </div>
-  <span class="copyright-site">Copyrights ©${datetime.now().year}. All Rights Reserved.</span>
+  <span class="copyright-site">© ${datetime.now().year} 广东英荔国际教育科技有限公司 版权所有 粤 ICP 备 13044168 号  edX 和 Open edX 为 edX Inc. 的注册商标，版权所有。</span>
   % endif
     <div class="colophon">
      
@@ -117,7 +117,7 @@
         ## which are not technically powered by OpenEdX.
         % if not hide_openedx_link:
         <ul class="logo-list">
-          <li>Powered by:</li>
+          <li>${_("Powered by:")}</li>
           <li>
             <a href="https://docs.tutor.edly.io" rel="noopener" target="_blank">
               <img src="${static.url('images/tutor-logo.png')}" alt="Runs on Tutor" width="57" />
@@ -131,7 +131,7 @@
         </ul>
       </div>
       
-      <nav class="nav-colophon" aria-label="${_('About')}">
+      <nav class="nav-colophon" aria-label='${_("About")}'>
         <ol>
             
             <li>
@@ -166,7 +166,8 @@
       </nav>
       
     </div>
-    <span class="copyright-site">Copyrights ©${datetime.now().year}. All Rights Reserved.</span>
+<!--    <span class="copyright-site">Copyrights ©${datetime.now().year}. All Rights Reserved.</span>-->
+        <span class="copyright-site">© ${datetime.now().year} 广东英荔国际教育科技有限公司 版权所有 粤 ICP 备 13044168 号  edX 和 Open edX 为 edX Inc. 的注册商标，版权所有。</span>
     % endif
       <div class="colophon">
        
