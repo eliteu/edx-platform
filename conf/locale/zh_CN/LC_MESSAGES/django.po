@@ -24379,6 +24379,16 @@ msgstr "马上探索课程"
 msgid "Discover courses"
 msgstr "马上探索课程"
 
+#: themes/indigo/lms/templates/footer.html:50
+#: themes/indigo/lms/templates/footer.html:138
+msgid "About Us"
+msgstr "关于我们"
+
+#: themes/indigo/lms/templates/footer.html:62
+#: themes/indigo/lms/templates/footer.html:150
+msgid "Terms of Sevice"
+msgstr "服务条款"
+
 msgid "New Unit"
 msgstr "新的单元"
 
