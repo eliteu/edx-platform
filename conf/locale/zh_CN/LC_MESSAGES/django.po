@@ -3337,7 +3337,6 @@ msgid ""
 msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py
-#, fuzzy
 msgid ""
 "Tell us about your plans for this course. What steps will you take to help "
 "you complete the course work and receive a certificate?"
@@ -6450,7 +6449,6 @@ msgid ""
 msgstr "块类型“{block_type}”与库类型“{library_type}”不兼容。"
 
 #: openedx/core/djangoapps/content_libraries/api.py
-#, fuzzy
 msgid "Library cannot have more than {} XBlocks"
 msgstr "库不能有超过 {} 个组件"
 
@@ -10897,7 +10895,6 @@ msgid "Select a Library."
 msgstr "选择一个知识库。"
 
 #: xmodule/library_content_block.py
-#, fuzzy
 msgid "There are no matching problem types in the specified libraries."
 msgstr "{capa_type}类型的指定库没有问题。"
 
@@ -12133,7 +12130,6 @@ msgid "Unknown User ID: {0}"
 msgstr "未知用户ID: {0}"
 
 #: cms/djangoapps/contentstore/errors.py
-#, fuzzy
 msgid "Unsafe tar file. Aborting import."
 msgstr "不安全的存档文件。正在中止导入。"
 
@@ -13451,7 +13447,6 @@ msgstr "欢迎来到{platform_name}"
 #. Translators: 'Open edX' is a registered trademark, please keep this
 #. untranslated. See https://open.edx.org for more information.
 #: lms/templates/index_overlay.html
-#, fuzzy
 msgid "It works! Powered by Open edX{registered_trademark}"
 msgstr "有用！由开放 edX {registered_trademark}平台提供支持"
 
@@ -19801,7 +19796,6 @@ msgid "Studio Accessibility Policy"
 msgstr "教室可访问性政策"
 
 #: cms/templates/asset_index.html cms/templates/widgets/header.html
-#, fuzzy
 msgid "Files & Uploads"
 msgstr "视频上传"
 
@@ -21222,7 +21216,6 @@ msgstr ""
 "课程导出，以便有个备份。"
 
 #: cms/templates/import.html
-#, fuzzy
 msgid ""
 "The course that you import must be in a .tar.gz file (that is, a .tar file "
 "compressed with GNU Zip). This .tar.gz file must contain a course.xml file. "
@@ -21246,7 +21239,6 @@ msgid "Select a .tar.gz File to Replace Your Library Content"
 msgstr "请选择一个用于替换您的知识库内容的 .tar.gz 文件"
 
 #: cms/templates/import.html
-#, fuzzy
 msgid "Select a .tar.gz File to Replace Your Course Content"
 msgstr "选择 .tar.gz 或 .zip 文件来替换您的课程内容"
 
@@ -24355,18 +24347,15 @@ msgid "Click on the \"Start Proctored Exam\" button below to continue."
 msgstr "点击下方的“开始监考考试”按钮继续"
 
 #: themes/indigo/lms/templates/dashboard.html:158
-#, fuzzy
 msgid "Hello there!"
 msgstr "您即将完成!"
 
 #: themes/indigo/lms/templates/dashboard.html:159
-#, fuzzy
 msgid "Let's learn something today"
 msgstr "今天继续学习"
 
 #: themes/indigo/lms/templates/footer.html:32
 #: themes/indigo/lms/templates/footer.html:120
-#, fuzzy
 msgid "Powered by:"
 msgstr "技术支持："
 
@@ -24375,22 +24364,18 @@ msgid "The place for all your online learning"
 msgstr "一站式在线学习平台"
 
 #: themes/indigo/lms/templates/courseware/course_about.html:91
-#, fuzzy
 msgid "Already Enrolled"
 msgstr "已经注册过了？"
 
 #: themes/indigo/lms/templates/courseware/courses.html:78
-#, fuzzy
 msgid "Explore course"
 msgstr "探索课程"
 
 #: themes/indigo/lms/templates/header/navbar-authenticated.html:51
-#, fuzzy
 msgid "Discover"
 msgstr "马上探索课程"
 
 #: themes/indigo/lms/templates/header/navbar-not-authenticated.html:43
-#, fuzzy
 msgid "Discover courses"
 msgstr "马上探索课程"
 
