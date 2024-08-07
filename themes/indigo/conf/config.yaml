@@ -164,8 +164,8 @@ segment:
     mako.po:
         mako-studio.po:
             - cms/*
-        mako-indigo.po:
-          - themes/indigo/lms/templates/*
+        mako-theme.po:
+            - /openedx/themes/indigo/lms/templates/*
     underscore.po:
         underscore-studio.po:
             - cms/*
@@ -177,12 +177,11 @@ generate_merge:
         - django-studio.po
         - mako.po
         - mako-studio.po
-        - mako-indigo.po
         - wiki.po
-        - edx_proctoring_proctortrack.po
     djangojs.po:
         - djangojs-partial.po
         - djangojs-studio.po
         - djangojs-account-settings-view.po
         - underscore.po
         - underscore-studio.po
+
