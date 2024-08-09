@@ -200,6 +200,7 @@ class GradeViewMixin(DeveloperErrorViewMixin):
         """
         return {
             'username': user.username,
+            'full_name': f"{user.last_name}{user.first_name}",
             # per business requirements, email should only be visible for students in masters track only
             'email': user.email,  # if getattr(user, 'enrollment_mode', '') == 'masters' else '',  2024-08-06 show email aways
             'course_id': str(course_key),
