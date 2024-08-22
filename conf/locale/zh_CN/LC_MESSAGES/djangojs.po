@@ -16667,7 +16667,7 @@ msgstr "使用当前字幕"
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "Section {currentPage} of {totalPages}"
-msgstr ""
+msgstr "{totalPages}的{currentPage}节"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
@@ -16677,20 +16677,19 @@ msgid ""
 "Welcome to edX! Before you get started, please take a few minutes to fill-in "
 "the additional information below to help us understand a bit more about your "
 "background. You can always edit this information later in Account Settings."
-msgstr ""
+msgstr "欢迎来到 edX！在开始之前，请花几分钟时间填写以下附加信息，以帮助我们更多地了解您的背景。您稍后可以随时在帐户设置中编辑此信息。"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "What is your gender identity?"
-msgstr ""
+msgstr "您的性别认同是什么？"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
-#, fuzzy
 msgid "Select gender"
 msgstr "选择学期"
 
@@ -16699,20 +16698,19 @@ msgstr "选择学期"
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "Which of the following describes you best?"
-msgstr ""
+msgstr "以下哪个选项最能描述您？"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "Check all that apply"
-msgstr ""
+msgstr "请选择所有适用项"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
-#, fuzzy
 msgid "Select income"
 msgstr "选择学期"
 
@@ -16721,7 +16719,7 @@ msgstr "选择学期"
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "What is the highest level of education that you have achieved so far?"
-msgstr ""
+msgstr "您目前已完成的最高学历是什么？"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
@@ -16730,13 +16728,12 @@ msgstr ""
 msgid ""
 "What is the highest level of education that any of your parents or guardians "
 "have achieved?"
-msgstr ""
+msgstr "您的父母或监护人中，最高学历是什么？"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
-#, fuzzy
 msgid "Select employment status"
 msgstr "选择军籍"
 
@@ -16745,20 +16742,19 @@ msgstr "选择军籍"
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "What industry do you currently work in?"
-msgstr ""
+msgstr "您目前从事哪个行业？"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
 #: common/static/bundles/DemographicsCollectionModal.5f09a7f83ef0b5daf8bb.js:14
 #: common/static/bundles/DemographicsCollectionModal.js:14
 msgid "What industry do you want to work in?"
-msgstr ""
+msgstr "您希望从事哪个行业？"
 
 #: common/static/bundles/PasswordResetConfirmation.2207c40b768c87809128.js:1
 #: common/static/bundles/PasswordResetConfirmation.js:1
 #: common/static/bundles/StudentAccountDeletion.057df64cc3312d4b88f3.js:1
 #: common/static/bundles/StudentAccountDeletion.js:1
-#, fuzzy
 msgid "radio"
 msgstr "评分"
 
@@ -16766,44 +16762,43 @@ msgstr "评分"
 #: common/static/bundles/PasswordResetConfirmation.js:1
 #: common/static/bundles/StudentAccountDeletion.057df64cc3312d4b88f3.js:1
 #: common/static/bundles/StudentAccountDeletion.js:1
-#, fuzzy
 msgid "radiogroup"
 msgstr "行组"
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid ";"
-msgstr ""
+msgstr "；"
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid "{"
-msgstr ""
+msgstr "{"
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid ":"
-msgstr ""
+msgstr "："
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid "("
-msgstr ""
+msgstr "（"
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid ")"
-msgstr ""
+msgstr "）"
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid "=>"
-msgstr ""
+msgstr "=>"
 
 #: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
 #: common/static/bundles/commons.js:14
 msgid "]"
-msgstr ""
+msgstr "]"
 
 #: common/static/bundles/js/factories/container.aba674d6c7d62f23bd9e.js:36
 #: common/static/bundles/js/factories/container.js:36
@@ -16812,7 +16807,7 @@ msgstr ""
 #: common/static/bundles/js/factories/library.09d492056c2601ace783.js:36
 #: common/static/bundles/js/factories/library.js:36
 msgid "d"
-msgstr ""
+msgstr "d"
 
 #: common/static/bundles/js/factories/container.aba674d6c7d62f23bd9e.js:36
 #: common/static/bundles/js/factories/container.js:36
@@ -16820,7 +16815,6 @@ msgstr ""
 #: common/static/bundles/js/factories/edit_tabs.js:36
 #: common/static/bundles/js/factories/library.09d492056c2601ace783.js:36
 #: common/static/bundles/js/factories/library.js:36
-#, fuzzy
 msgid "o"
 msgstr "开启"
 
@@ -16831,7 +16825,7 @@ msgstr "开启"
 #: common/static/bundles/js/factories/library.09d492056c2601ace783.js:36
 #: common/static/bundles/js/factories/library.js:36
 msgid "m"
-msgstr ""
+msgstr "m"
 
 #: common/static/bundles/js/factories/container.aba674d6c7d62f23bd9e.js:36
 #: common/static/bundles/js/factories/container.js:36
@@ -16840,7 +16834,7 @@ msgstr ""
 #: common/static/bundles/js/factories/library.09d492056c2601ace783.js:36
 #: common/static/bundles/js/factories/library.js:36
 msgid "y"
-msgstr ""
+msgstr "y"
 
 #: common/static/bundles/js/factories/container.aba674d6c7d62f23bd9e.js:36
 #: common/static/bundles/js/factories/container.js:36
@@ -16849,7 +16843,7 @@ msgstr ""
 #: common/static/bundles/js/factories/library.09d492056c2601ace783.js:36
 #: common/static/bundles/js/factories/library.js:36
 msgid "@"
-msgstr ""
+msgstr "@"
 
 #: common/static/bundles/js/factories/container.aba674d6c7d62f23bd9e.js:36
 #: common/static/bundles/js/factories/container.js:36
@@ -16858,16 +16852,14 @@ msgstr ""
 #: common/static/bundles/js/factories/library.09d492056c2601ace783.js:36
 #: common/static/bundles/js/factories/library.js:36
 msgid "!"
-msgstr ""
+msgstr "!"
 
 #. Translators: For cases when the input field is empty;
 #: lms/static/js/instructor_dashboard/membership.js:518
 #: lms/static/js/instructor_dashboard/membership.js:731
-#, fuzzy
 msgid "This field must not be blank"
 msgstr "原因不能为空。"
 
 #: cms/templates/js/publish-xblock.underscore:137
-#, fuzzy
 msgid "Copy Unit"
 msgstr "复制"
