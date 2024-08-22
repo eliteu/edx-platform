@@ -7374,7 +7374,7 @@ msgstr "取消标记作为答案"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Follow"
-msgstr "关注""
+msgstr "关注"
 
 #: common/static/common/templates/discussion/templates.underscore
 msgid "Unfollow"
