@@ -4114,7 +4114,7 @@ msgstr ""
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:168
 msgid "(Self-paced) Starts {start}"
@@ -4123,7 +4123,7 @@ msgstr "(自主模式) 开始 {start}"
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:169
 msgid "(Self-paced) Started {start}"
@@ -4132,7 +4132,7 @@ msgstr "(自主模式) 开始 {start}"
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:171
 msgid "(Self-paced) Ends {end}"
@@ -4141,7 +4141,7 @@ msgstr "(自主模式) 结束 {end}"
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:173
 msgid "(Self-paced) Ended {end}"
@@ -4150,7 +4150,7 @@ msgstr "(自主模式) 结束 {end}"
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:179
 msgid "Starts {start}"
@@ -4159,7 +4159,7 @@ msgstr "开始{start}"
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:180
 msgid "Started {start}"
@@ -4168,14 +4168,14 @@ msgstr "开始{start}"
 #: lms/static/js/learner_dashboard/models/course_card_model.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/models/course_card_model.js:182
 msgid "Ends {end}"
 msgstr "结束{end}"
 
 #: lms/static/js/learner_dashboard/models/program_subscription_model.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4186,7 +4186,7 @@ msgstr "$ {price} /月{currency}"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:220
 msgid "You must select a session to access the course."
@@ -4195,7 +4195,7 @@ msgstr "必须选择一个学期才能访问课程。"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:247
 msgid "There was an error. Please reload the page and try again."
@@ -4205,7 +4205,7 @@ msgstr "发生错误，请重新加载页面并重试。"
 #: lms/templates/learner_dashboard/course_entitlement.underscore
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:284
 #: lms/templates/learner_dashboard/course_entitlement.underscore:32
@@ -4216,7 +4216,7 @@ msgstr "更改学期"
 #: lms/templates/learner_dashboard/course_entitlement.underscore
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:284
 #: lms/templates/learner_dashboard/course_entitlement.underscore:34
@@ -4226,7 +4226,7 @@ msgstr "选择学期"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:286
 msgid "Leave Current Session"
@@ -4235,7 +4235,7 @@ msgstr "离开当前学期"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:321
 msgid "Are you sure you want to select this session?"
@@ -4244,7 +4244,7 @@ msgstr "确定选择此学期？"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:322
 msgid "Are you sure you want to change to a different session?"
@@ -4253,7 +4253,7 @@ msgstr "确定更改学期？"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:324
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:327
@@ -4263,7 +4263,7 @@ msgstr "所有当前学期的学习进度和成绩都会丢失。"
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js
 #: common/static/bundles/EntitlementFactory.6dc3d9c55a1350a2d01d.js:145
 #: common/static/bundles/EntitlementFactory.js:145
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/course_entitlement_view.js:326
 msgid "Are you sure that you want to leave this session?"
@@ -4287,7 +4287,7 @@ msgid ""
 msgstr "确定退选课程 {courseName} ({courseNumber})？您将会收到全额退款。"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4296,7 +4296,7 @@ msgid "View program"
 msgstr "查看项目"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4305,7 +4305,7 @@ msgid "Enroll in a {programName}'s course"
 msgstr "报名参加{programName}的课程"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4319,7 +4319,7 @@ msgstr ""
 "访问权限。"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4333,7 +4333,7 @@ msgstr ""
 "划详细信息{i_end}页面注册课程。"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4342,7 +4342,7 @@ msgid "Subscription trial expires in less than 24 hours"
 msgstr "订阅试用版将在 24 小时内到期"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4352,7 +4352,7 @@ msgid_plural "Subscription trial expires in {remainingDays} days"
 msgstr[0] "订阅试用期将在{remainingDays}天后到期"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4365,7 +4365,7 @@ msgstr ""
 "将被扣费{subscriptionPrice}"
 
 #: lms/static/js/learner_dashboard/views/program_alert_list_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: common/static/bundles/ProgramListFactory.fc6036fccc909cc0c212.js:154
 #: common/static/bundles/ProgramListFactory.js:154
@@ -4383,14 +4383,14 @@ msgstr[0] ""
 "{trialEndDate}到期，并且存档的卡将被扣费{subscriptionPrice}"
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:66
 msgid "{type} Progress"
 msgstr "{type}进度"
 
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:69
 #: lms/static/js/learner_dashboard/views/program_details_sidebar_view.js:87
@@ -4398,7 +4398,7 @@ msgid "Earned Certificates"
 msgstr "已获取证书"
 
 #: lms/static/js/learner_dashboard/views/program_details_view.js
-#: common/static/bundles/ProgramDetailsFactory.9010eb6dff631da8ec18.js:145
+#: common/static/bundles/ProgramDetailsFactory.1e352e01ae902e97fe02.js:145
 #: common/static/bundles/ProgramDetailsFactory.js:145
 #: lms/static/js/learner_dashboard/views/program_details_view.js:172
 msgid "Enrolled"
@@ -13010,8 +13010,10 @@ msgstr "搜索课程"
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:2
+#, fuzzy
 msgid ""
-"Browse recently launched courses and see what's new in your favorite subjects"
+"Browse recently launched courses and see what\\'s new in your favorite "
+"subjects"
 msgstr "浏览最新上线的课程并查看您最喜爱科目的更新情况"
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore
@@ -15215,6 +15217,7 @@ msgid "Video Sharing"
 msgstr "视频分享"
 
 #: cms/templates/js/course-video-sharing-enable.underscore
+#: cms/templates/js/course-highlights-enable.underscore:11
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
 msgstr "了解更多"
@@ -16676,7 +16679,9 @@ msgid ""
 "Welcome to edX! Before you get started, please take a few minutes to fill-in "
 "the additional information below to help us understand a bit more about your "
 "background. You can always edit this information later in Account Settings."
-msgstr "欢迎来到 edX！在开始之前，请花几分钟时间填写以下附加信息，以帮助我们更多地了解您的背景。您稍后可以随时在帐户设置中编辑此信息。"
+msgstr ""
+"欢迎来到 edX！在开始之前，请花几分钟时间填写以下附加信息，以帮助我们更多地了"
+"解您的背景。您稍后可以随时在帐户设置中编辑此信息。"
 
 #: common/static/bundles/DemographicsCollectionBanner.3ad07bca755cf7301978.js:14
 #: common/static/bundles/DemographicsCollectionBanner.js:14
@@ -16764,37 +16769,37 @@ msgstr "评分"
 msgid "radiogroup"
 msgstr "行组"
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid ";"
 msgstr "；"
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid "{"
 msgstr "{"
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid ":"
 msgstr "："
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid "("
 msgstr "（"
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid ")"
 msgstr "）"
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid "=>"
 msgstr "=>"
 
-#: common/static/bundles/commons.49e16cd152ffd27a766e.js:14
+#: common/static/bundles/commons.ad60721442ab6d11333e.js:14
 #: common/static/bundles/commons.js:14
 msgid "]"
 msgstr "]"
@@ -16858,6 +16863,17 @@ msgstr "!"
 #: lms/static/js/instructor_dashboard/membership.js:731
 msgid "This field must not be blank"
 msgstr "原因不能为空。"
+
+#: lms/templates/learner_dashboard/expired_notification.underscore:2
+msgid ""
+"You enrolled in this course but did not earn the certificate required to "
+"complete this program."
+msgstr ""
+
+#: lms/templates/learner_dashboard/program_header_view.underscore:15
+#, fuzzy
+msgid "Institutions"
+msgstr "展开说明"
 
 #: cms/templates/js/publish-xblock.underscore:137
 msgid "Copy Unit"
