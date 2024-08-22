@@ -13010,10 +13010,8 @@ msgstr "搜索课程"
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:2
-#, fuzzy
 msgid ""
-"Browse recently launched courses and see what\\'s new in your favorite "
-"subjects"
+"Browse recently launched courses and see what's new in your favorite subjects"
 msgstr "浏览最新上线的课程并查看您最喜爱科目的更新情况"
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore
@@ -13184,7 +13182,6 @@ msgstr "您的课程学习之旅"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:44
-#, python-format
 msgid ""
 "Track and plan your progress through the %(count)s course(s) in this "
 "program. To complete the program, you must earn a verified certificate for "
@@ -16868,10 +16865,9 @@ msgstr "原因不能为空。"
 msgid ""
 "You enrolled in this course but did not earn the certificate required to "
 "complete this program."
-msgstr ""
+msgstr "您已报名参加此课程，但未获得完成该项目所需的证书。"
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
-#, fuzzy
 msgid "Institutions"
 msgstr "展开说明"
 
