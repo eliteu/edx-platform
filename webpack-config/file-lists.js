@@ -72,7 +72,7 @@ module.exports = {
         path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/course_enroll_view.js'),
         path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/course_entitlement_view.js'),
         path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/expired_notification_view.js'),
-        // path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/explore_new_programs_view.js'),
+        path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/explore_new_programs_view.js'),
         path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/program_card_view.js'),
         path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/program_details_sidebar_view.js'),
         path.resolve(__dirname, '../lms/static/js/learner_dashboard/views/program_details_view.js'),

@@ -72,12 +72,13 @@ function ProgramListFactory(options) {
         context: options,
     }).render();
 
-    if (options.programsData.length) {
-        new SidebarView({
-            el: '.sidebar',
-            context: options,
-        }).render();
-    }
+    // hidden by xavierchan, 2024-09-04
+    // if (options.programsData.length) {
+    //     new SidebarView({
+    //         el: '.sidebar',
+    //         context: options,
+    //     }).render();
+    // }
 }
 
 export { ProgramListFactory }; // eslint-disable-line import/prefer-default-export
