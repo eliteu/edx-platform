@@ -17,6 +17,8 @@ urlpatterns = [
     path('jobs', views.render, {'template': 'jobs.html'}, name="jobs"),
     path('news', views.render, {'template': 'news.html'}, name="news"),
     path('press', views.render, {'template': 'press.html'}, name="press"),
+    path('user_agreement', views.render, {'template': 'user_agreement.html'}, name="user_agreement"),
+    path('disclaimer', views.render, {'template': 'disclaimer.html'}, name="disclaimer"),
     path('media-kit', views.render, {'template': 'media-kit.html'}, name="media-kit"),
     path('copyright', views.render, {'template': 'copyright.html'}, name="copyright"),
 

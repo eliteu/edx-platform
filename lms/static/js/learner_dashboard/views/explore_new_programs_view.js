@@ -19,13 +19,13 @@ class ExploreNewProgramsView extends Backbone.View {
         // eslint-disable-next-line no-undef
         this.$parentEl = $(this.parentEl);
 
-        if (this.context.marketingUrl) {
-            // Only render if there is a link
-            this.render();
-        } else {
-            // If not rendering, remove el because styles are applied to it
-            this.remove();
-        }
+        // if (this.context.marketingUrl) {
+        //     // Only render if there is a link
+        //     this.render();
+        // } else {
+        //     // If not rendering, remove el because styles are applied to it
+        //     this.remove();
+        // }
     }
 
     render() {
