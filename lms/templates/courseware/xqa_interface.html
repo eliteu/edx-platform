@@ -38,6 +38,11 @@ function setup_debug(element_id, edit_link, staff_context){
     staffDebugTrigger.on('click', function() {
         DialogTabControls.initializeTabKeyValues(debugModalSelector);
         $(debugModalSelector).attr("aria-hidden", "false");
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth' // 可选，平滑滚动
+        });
     });
 
     historyTrigger.on('click', function() {

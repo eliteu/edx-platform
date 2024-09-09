@@ -56,12 +56,6 @@ var reassignTabIndexesAndAriaHidden = function(focusableElementsFilterString, cl
     focusableItems.attr('tabindex', '2');
     $(closeButtonId).attr('tabindex', '1').focus();
 
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth' // 可选，平滑滚动
-    });
-
     return focusableItems;
 };
 

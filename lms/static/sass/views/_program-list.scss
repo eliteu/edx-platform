@@ -21,7 +21,7 @@
 
   .program-list-container {
     @include media-breakpoint-up(lg) {
-      padding-right: $baseline;
+    //   padding-right: $baseline;
     }
   }
 
