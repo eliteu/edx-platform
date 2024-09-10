@@ -210,6 +210,17 @@ ${HTML(fragment.foot_html())}
 
       window.addEventListener('load', dispatchResizeMessage);
       window.addEventListener('resize', dispatchResizeMessage);
+
+      // 2024-09-10 xavierchan disable copy and paste
+      const eliteu_main = document.getElementById("main")
+      eliteu_main.addEventListener('copy', function(event) {
+        event.preventDefault();  // 禁止复制行为
+        alert('Copying is not allowed!');
+      });
+      eliteu_main.addEventListener('paste', function(event) {
+        event.preventDefault();  // 禁止粘贴行为
+        alert('Paste is not allowed!');
+      });
     }
   }());
 </script>

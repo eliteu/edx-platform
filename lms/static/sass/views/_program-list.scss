@@ -20,6 +20,7 @@
   }
 
   .program-list-container {
+    width: 100%;
     @include media-breakpoint-up(lg) {
     //   padding-right: $baseline;
     }
@@ -50,7 +51,7 @@
 
 .sidebar {
   @include float(right);
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: stretch;
   gap: 24px;

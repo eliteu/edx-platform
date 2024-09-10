@@ -575,8 +575,11 @@ class CourseGradeReport(GradeReportBase):
                     # An empty gradeset means we failed to grade a student.
                     error_rows.append([user.id, user.username, str(error)])
                 else:
+                    last_updated = course_grade.last_updated
+                    if last_updated:
+                        last_updated = last_updated.strftime('%Y-%m-%d %H:%M:%S')
                     success_rows.append(
-                        [user.id, user.email, user.username, course_grade.last_updated.strftime('%Y-%m-%d %H:%M:%S')] +
+                        [user.id, user.email, user.username, last_updated] +
                         self._user_grades(course_grade) +
                         self._user_cohort_group_names(user) +
                         self._user_experiment_group_names(user) +
