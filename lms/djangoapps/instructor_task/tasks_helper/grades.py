@@ -576,8 +576,7 @@ class CourseGradeReport(GradeReportBase):
                     error_rows.append([user.id, user.username, str(error)])
                 else:
                     last_updated = course_grade.last_updated
-                    if last_updated:
-                        last_updated = last_updated.strftime('%Y-%m-%d %H:%M:%S')
+                    last_updated = last_updated.strftime('%Y-%m-%d %H:%M:%S') if last_updated else ""
                     success_rows.append(
                         [user.id, user.email, user.username, last_updated] +
                         self._user_grades(course_grade) +

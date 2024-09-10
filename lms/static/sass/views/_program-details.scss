@@ -120,8 +120,11 @@ $btn-color-primary: $primary-dark;
 }
 
 .program-details-wrapper {
+    max-width: 1090px;
+    margin: 0 auto;
+
   .program-details-header {
-    background-color: $gray-light1;
+    background-color: transparent;
     display: flex;
     color: black;
     font-family: 'Open Sans';
@@ -283,7 +286,11 @@ $btn-color-primary: $primary-dark;
   }
 
   .course-list > div:nth-of-type(even) {
-    background-color: $zebra-stripe-color;
+    background-color: transparent;
+  }
+
+  .course-list > div:last-child {
+    border-color: transparent;
   }
 
   .course-list-headings {
@@ -488,6 +495,7 @@ $btn-color-primary: $primary-dark;
   .program-course-card {
     width: 100%;
     padding: 15px 15px 15px 0px;
+    border-bottom: 1px solid #e4e4e4;
 
     @include media-breakpoint-up(md) {
       height: auto;
@@ -733,7 +741,7 @@ $btn-color-primary: $primary-dark;
     padding-bottom: 2em;
   }
 
-  .pathway-wrapper {   
+  .pathway-wrapper {
     width: auto;
     border-bottom: 1px solid $gray-light3;
 
@@ -912,4 +920,17 @@ $btn-color-primary: $primary-dark;
       }
     }
   }
+}
+
+.full-width-banner {
+  padding: 0 30px;
+}
+
+.window-wrap #content.content-wrapper{
+  margin: 0 auto !important;
+  max-width: 1600px;
+}
+
+.course-list{
+  margin-left: 0 !important;
 }
