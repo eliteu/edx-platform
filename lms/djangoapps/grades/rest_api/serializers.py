@@ -57,6 +57,7 @@ class StudentGradebookEntrySerializer(serializers.Serializer):
     external_user_key = serializers.CharField(required=False)
     percent = serializers.FloatField()
     section_breakdown = SectionBreakdownSerializer(many=True)
+    last_updated = serializers.DateTimeField(format='%Y-%m-%d %H:%M:%S')
 
 
 class SubsectionGradeOverrideSerializer(serializers.Serializer):

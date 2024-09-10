@@ -207,6 +207,7 @@ class GradeViewMixin(DeveloperErrorViewMixin):
             'passed': course_grade.passed,
             'percent': course_grade.percent,
             'letter_grade': course_grade.letter_grade,
+            'last_updated': course_grade.last_updated,
         }
 
     def perform_authentication(self, request):

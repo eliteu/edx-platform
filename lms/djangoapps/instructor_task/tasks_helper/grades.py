@@ -529,7 +529,7 @@ class CourseGradeReport(GradeReportBase):
         Returns a list of all applicable column headers for this grade report.
         """
         return (
-            ["Student ID", "Email", "Username"] +
+            ["Student ID", "Email", "Username", "Last Updated"] +
             self._grades_header() +
             (['Cohort Name'] if self.context.cohorts_enabled else []) +
             [f'Experiment Group ({partition.name})' for partition in self.context.course_experiments] +
@@ -576,7 +576,7 @@ class CourseGradeReport(GradeReportBase):
                     error_rows.append([user.id, user.username, str(error)])
                 else:
                     success_rows.append(
-                        [user.id, user.email, user.username] +
+                        [user.id, user.email, user.username, course_grade.last_updated.strftime('%Y-%m-%d %H:%M:%S')] +
                         self._user_grades(course_grade) +
                         self._user_cohort_group_names(user) +
                         self._user_experiment_group_names(user) +
