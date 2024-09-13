@@ -46,6 +46,7 @@ import sys
 import os
 
 import django
+import edx_proctoring
 from corsheaders.defaults import default_headers as corsheaders_default_headers
 from path import Path as path
 from django.utils.translation import gettext_lazy as _
@@ -1986,6 +1987,7 @@ STATICI18N_OUTPUT_DIR = "js/i18n"
 def _make_locale_paths(settings):  # pylint: disable=missing-function-docstring
     locale_paths = list(settings.PREPEND_LOCALE_PATHS)
     locale_paths += [settings.REPO_ROOT + '/conf/locale']  # edx-platform/conf/locale/
+    locale_paths += [os.path.join(os.path.dirname(edx_proctoring.__file__), 'locale')]
 
     if settings.ENABLE_COMPREHENSIVE_THEMING:
         # Add locale paths to settings for comprehensive theming.
