@@ -258,6 +258,7 @@ $btn-color-primary: $primary-dark;
   .program-details-content {
     margin-bottom: 30px;
     padding-right: 40px;
+    padding-left: 0 !important;
   }
   .tab-content{
       .tab-pane {
@@ -923,7 +924,7 @@ $btn-color-primary: $primary-dark;
 }
 
 .full-width-banner {
-  padding: 0 30px;
+  padding: 0;
 }
 
 .window-wrap #content.content-wrapper{

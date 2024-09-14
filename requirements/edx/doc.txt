@@ -596,8 +596,7 @@ edx-opaque-keys[django]==2.5.1
     #   ora2
 edx-organizations==6.12.1
     # via -r requirements/edx/base.txt
-# edx-proctoring==4.16.1
-git+https://gitlab.com/aimaker/edx-proctoring.git@eliteu/quince.3#egg=edx-proctoring
+edx-proctoring==4.16.1
     # via
     #   -r requirements/edx/base.txt
     #   edx-proctoring-proctortrack
