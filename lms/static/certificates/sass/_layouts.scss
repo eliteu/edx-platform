@@ -314,8 +314,7 @@
       .signatory-signature {
         display: block;
         max-width: 100%;
-        max-height: rem(100);
-        padding: map-get($spacing-vertical, small) map-get($spacing-horizontal, small);
+        max-height: 6.25rem;
       }
     }
   }
