@@ -253,7 +253,8 @@
 
   // statement
   .accomplishment-statement {
-    @extend %rendering-section;
+    // @extend %rendering-section;
+    margin-top: 3rem;
 
     @include text-align(center);
   }
@@ -313,7 +314,7 @@
       margin: 0 auto 0.3rem;
       box-sizing: border-box;
       max-width: 100%;
-      height: 6.25rem;
+      height: 2.4rem;
     }
 
     .signatory-name,
