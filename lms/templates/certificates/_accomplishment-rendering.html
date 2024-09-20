@@ -9,14 +9,9 @@ course_mode_class = course_mode if course_mode else ''
 
     <div class="wrapper-accomplishment-rendering">
         <div class="accomplishment-rendering">
-            <span class="deco-corner deco-corner-tl"></span>
-            <span class="deco-corner deco-corner-tr"></span>
-            <span class="deco-corner deco-corner-bl"></span>
-            <span class="deco-corner deco-corner-br"></span>
 
             <div class="accomplishment-type">
                 <span class="accomplishment-type-symbol">
-                    <img class="src" src="/static/certificates/images/ico-${course_mode_class}.png" alt="Image for course mode of type ${course_mode_class}">
                 </span>
 
                 <span class="accomplishment-type-label hd-3">${document_title}</span>
@@ -25,9 +20,9 @@ course_mode_class = course_mode if course_mode else ''
             <div class="wrapper-statement-and-signatories">
                 <div class="accomplishment-statement">
                     <p class="accomplishment-statement-lead">
+                        <span class="accomplishment-summary copy copy-lead">兹证明</span>
                         <strong class="accomplishment-recipient hd-1 emphasized">${accomplishment_copy_name}</strong>
-                        <span class="accomplishment-summary copy copy-lead">${accomplishment_copy_description_full}</span>
-
+                        <span>完成课程、测验及格，并荣获该英荔教育认证证书</span>
                         <span class="accomplishment-course hd-1 emphasized">
                             <span class="accomplishment-course-org">${accomplishment_copy_course_org}  </span>
                             <span class="accomplishment-course-number">${course_number}</span>:
@@ -35,7 +30,7 @@ course_mode_class = course_mode if course_mode else ''
                         </span>
                     </p>
 
-                    <p class="accomplishment-statement-detail copy copy-lead">${accomplishment_copy_course_description}</p>
+                    <p class="accomplishment-statement-detail copy copy-lead" style="display: none;">${accomplishment_copy_course_description}</p>
                 </div>
 
                 % if mode != 'base':
@@ -65,7 +60,7 @@ course_mode_class = course_mode if course_mode else ''
                 % endif
             </div>
 
-            <div class="accomplishment-orgs">
+            <div class="accomplishment-orgs" style="display: none;">
                 <h3 class="accomplishment-orgs-title sr-only">${_("Supported by the following organizations")}</h3>
 
                 <ul class="wrapper-orgs list-orgs">
