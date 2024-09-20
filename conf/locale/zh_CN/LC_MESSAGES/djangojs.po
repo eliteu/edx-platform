@@ -15899,7 +15899,7 @@ msgstr "员工与学员"
 #: cms/templates/js/publish-xblock.underscore:108
 #: cms/templates/js/staff-lock-editor.underscore:12
 msgid "Hide from learners"
-msgstr "对学习这隐藏"
+msgstr "对学习者隐藏"
 
 #: cms/templates/js/publish-xblock.underscore
 #: cms/templates/js/publish-xblock.underscore:113
