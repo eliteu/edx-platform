@@ -117,6 +117,7 @@ from openedx.core.djangoapps.enrollments.api import add_enrollment
 from openedx.core.djangoapps.enrollments.permissions import ENROLL_IN_COURSE
 from openedx.core.djangoapps.models.course_details import CourseDetails
 from openedx.core.djangoapps.plugin_api.views import EdxFragmentView
+from openedx.core.djangoapps.programs.models import ProgramsApiConfig
 from openedx.core.djangoapps.programs.utils import ProgramMarketingDataExtender
 from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 from openedx.core.djangoapps.util.user_messages import PageLevelMessages
@@ -287,13 +288,16 @@ def courses(request):
 
     # Add marketable programs to the context.
     programs_list = get_programs_with_type(request.site, include_hidden=False)
+    programs_config = ProgramsApiConfig.current()
+
 
     return render_to_response(
         "courseware/courses.html",
         {
             'courses': courses_list,
             'course_discovery_meanings': course_discovery_meanings,
-            'programs_list': programs_list,
+            'programs_list': programs_config.enabled,
+            'show_dashboard_tabs': True,
         }
     )
 
@@ -895,6 +899,7 @@ def program_marketing(request, program_uuid):
     """
     Display the program marketing page.
     """
+    programs_config = ProgramsApiConfig.current()
     program_data = get_programs(uuid=program_uuid)
 
     if not program_data:
@@ -911,6 +916,10 @@ def program_marketing(request, program_uuid):
         context['buy_button_href'] = ecommerce_service.get_checkout_page_url(*skus, program_uuid=program_uuid)
 
     context['uses_bootstrap'] = True
+    context.update({
+        'show_dashboard_tabs': True,
+        'show_program_listing': programs_config.enabled,
+    })
 
     return render_to_response('courseware/program_marketing.html', context)
 
