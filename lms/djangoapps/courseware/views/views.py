@@ -296,7 +296,7 @@ def courses(request):
         {
             'courses': courses_list,
             'course_discovery_meanings': course_discovery_meanings,
-            'programs_list': programs_config.enabled,
+            'show_program_listing': programs_config.enabled,
             'show_dashboard_tabs': True,
         }
     )
@@ -845,6 +845,7 @@ def course_about(request, course_id):  # pylint: disable=too-many-statements
         sidebar_html_enabled = ENABLE_COURSE_ABOUT_SIDEBAR_HTML.is_enabled()
 
         allow_anonymous = check_public_access(course, [COURSE_VISIBILITY_PUBLIC, COURSE_VISIBILITY_PUBLIC_OUTLINE])
+        programs_config = ProgramsApiConfig.current()
 
         context = {
             'course': course,
@@ -872,6 +873,8 @@ def course_about(request, course_id):  # pylint: disable=too-many-statements
             'course_image_urls': overview.image_urls,
             'sidebar_html_enabled': sidebar_html_enabled,
             'allow_anonymous': allow_anonymous,
+            'show_dashboard_tabs': True,
+            'show_program_listing': programs_config.enabled,
         }
 
         course_about_template = 'courseware/course_about.html'
