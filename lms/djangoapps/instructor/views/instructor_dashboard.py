@@ -55,6 +55,7 @@ from openedx.core.djangoapps.discussions.config.waffle_utils import legacy_discu
 from openedx.core.djangoapps.discussions.utils import available_division_schemes
 from openedx.core.djangoapps.django_comment_common.models import FORUM_ROLE_ADMINISTRATOR, CourseDiscussionSettings
 from openedx.core.djangoapps.plugins.constants import ProjectType
+from openedx.core.djangoapps.programs.models import ProgramsApiConfig
 from openedx.core.djangoapps.site_configuration import helpers as configuration_helpers
 from openedx.core.djangolib.markup import HTML, Text
 from openedx.core.lib.courses import get_course_by_id
@@ -237,6 +238,7 @@ def instructor_dashboard_2(request, course_id):  # lint-amnesty, pylint: disable
     )
 
     certificate_invalidations = CertificateInvalidation.get_certificate_invalidations(course_key)
+    programs_config = ProgramsApiConfig.current()
 
     context = {
         'course': course,
@@ -251,6 +253,8 @@ def instructor_dashboard_2(request, course_id):  # lint-amnesty, pylint: disable
         'certificate_exception_view_url': certificate_exception_view_url,
         'certificate_invalidation_view_url': certificate_invalidation_view_url,
         'xqa_server': settings.FEATURES.get('XQA_SERVER', "http://your_xqa_server.com"),
+        'show_dashboard_tabs': True,
+        'show_program_listing': programs_config.enabled,
     }
 
     context_from_plugins = get_plugins_view_context(
