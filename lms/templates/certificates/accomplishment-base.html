@@ -9,6 +9,7 @@ from openedx.core.djangolib.js_utils import js_escaped_string
 from django.utils.translation import get_language_bidi
 dir_rtl = 'rtl' if get_language_bidi() else 'ltr'
 course_mode_class = course_mode if course_mode else ''
+course_mode_class = 'verified'
 %>
 
 <!DOCTYPE html>
@@ -44,7 +45,7 @@ course_mode_class = course_mode if course_mode else ''
     % endif
 </head>
 
-<body class="layout-accomplishment view-valid-accomplishment ${dir_rtl} certificate certificate-verified" data-view="valid-accomplishment">
+<body class="layout-accomplishment view-valid-accomplishment ${dir_rtl} certificate certificate-${course_mode_class}" data-view="valid-accomplishment">
 
     <div class="wrapper-view" dir="${dir_rtl}">
 
