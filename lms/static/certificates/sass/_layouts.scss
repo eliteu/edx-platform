@@ -190,8 +190,6 @@
   .wrapper-introduction {
     @extend %layout-wrapper;
 
-    margin-bottom: map-get($spacing-vertical, large);
-
     .introduction {
       @extend %layout;
     }
@@ -207,7 +205,7 @@
     @extend %layout;
 
     position: relative;
-    top: -(map-get($spacing-vertical, base));
+    top: -(map-get($spacing-vertical, base)) !important;
 
     .accomplishment-course,
     .accomplishment-recipient,
