@@ -337,10 +337,10 @@
       @extend %copy-micro;
 
       margin-top: 0;
-      color: #656565;
 
       .role,
       .organization {
+        color: #656565 !important;
         white-space: pre-line;
         display: block;
         height: 14px;
