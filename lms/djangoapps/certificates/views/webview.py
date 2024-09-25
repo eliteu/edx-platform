@@ -665,6 +665,7 @@ def render_html_view(request, course_id, certificate=None):  # pylint: disable=t
         except CertificateRenderStarted.RenderCustomResponse as exc:
             response = exc.response
         else:
+            context['course_mode'] = 'verified'
             response = _render_valid_certificate(request, context, custom_template)
 
         # Render the certificate
