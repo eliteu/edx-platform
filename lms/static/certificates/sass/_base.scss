@@ -25,7 +25,7 @@ body {
 // Level one heading
 .hd-1 {
 //   margin-bottom: map-get($spacing-vertical, small);
-  font-size: rem(38);
+  font-size: rem(38) !important;
   line-height: 1.4;
 }
 
