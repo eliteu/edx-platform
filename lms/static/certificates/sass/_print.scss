@@ -312,26 +312,6 @@
         }
       }
     }
-
-    .accomplishment-id {
-      float: left;
-      width: 65% !important;
-      margin: 0 !important;
-      flex: none !important;
-      max-width: 65% !important;
-
-      @include text-align(left);
-    }
-
-    .accomplishment-date {
-      float: right;
-      width: 35% !important;
-      margin: 0 !important;
-      flex: none !important;
-      max-width: 35% !important;
-
-      @include text-align(right);
-    }
   }
 }
 
