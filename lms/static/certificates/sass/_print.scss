@@ -191,7 +191,6 @@
 
   .accomplishment-rendering {
     top: 0 !important;
-    border: rem(1) solid $gray-back;
     border-top: rem(2) solid $cert-base-color;
     box-shadow: none;
     padding: map-get($spacing-vertical, small) map-get($spacing-horizontal, mid-large);
