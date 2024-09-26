@@ -104,6 +104,8 @@
   .wrapper-introduction,
   .accomplishment-metadata-title,
   .accomplishment-metadata .accomplishment-recipient,
+  .accomplishment-metadata .accomplishment-id,
+  .accomplishment-metadata .accomplishment-date,
   .deco-corner,
   .accomplishment-date .label {
     @extend %print-hide;
