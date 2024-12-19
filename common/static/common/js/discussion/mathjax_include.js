@@ -51,6 +51,7 @@ if (typeof MathJax === 'undefined') {
             explorer: true
         }
     };
-    vendorScript.src = 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+    // vendorScript.src = 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+    vendorScript.src = 'https://ecourse.aimaker.space/cdn/MathJax_2_7_5.js?config=TeX-MML-AM_HTMLorMML';
     document.body.appendChild(vendorScript);
 }
