@@ -18,7 +18,7 @@ define(
         window._ = _;
 
         $script(
-            'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js'
+            'https://gcore.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js'
             + '?config=TeX-MML-AM_SVG&delayStartupUntil=configured',
             'mathjax',
             function() {
